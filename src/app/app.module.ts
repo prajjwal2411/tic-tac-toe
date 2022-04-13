@@ -3,14 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CrossComponent } from './cross/cross.component';
-import { CircleComponent } from './circle/circle.component';
+import { SquareComponent } from './square/square.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CrossComponent,
-    CircleComponent
+    SquareComponent,
   ],
   imports: [
     BrowserModule,
